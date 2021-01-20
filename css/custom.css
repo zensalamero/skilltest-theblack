@@ -1,0 +1,54 @@
+.basic-1, .basic-1 h2, .basic-1 div, .basic-1 p {
+    color: #000000;
+}
+
+.logo-as-separator {
+    height: 50px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+
+#token-allocation {
+    background: linear-gradient(to bottom right, rgba(200, 200, 200, 0.5), rgba(200, 200, 200, 0.5)), url('../images/row-2-bg.jpg') center center no-repeat;
+}
+
+ 
+#pie-chart {
+    color: #fff !important;
+}
+
+p.tab-body-text {
+    font-size: 2rem;
+    line-height: 1;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+/* Ipad Portrait */
+@media (max-width: 768px) and (min-width: 360px) {  
+    #hero-logo-lg {
+        height: auto;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    div.header-content .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    p.tab-body-text {
+        font-size: 1.5rem;
+    }
+}
+ 
+/* Ipad Landscape */
+@media (min-width: 1024px) { 
+ 
+}
+ 
+/* Laptop or widescreen */
+@media (min-width: 1280px) {  
+    
+}
+
